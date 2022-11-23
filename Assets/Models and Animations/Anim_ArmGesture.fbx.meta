@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: af2223c277363524c88c0b0452e8094b
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: ArmGesture
+  - first:
+      74: -7277005391008920028
+    second: ArmGesture2
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArmGesture
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 102
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.7037035
+        functionName: ReturnToIdle
+        data: Acknowledge RH
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmGesture2
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.70493823
+        functionName: ReturnToIdle
+        data: Acknowledge LH
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Wat:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Wat:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Anim_ArmGesture(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:Hips
+      parentName: Anim_ArmGesture(Clone)
+      position: {x: -0.0037350596, y: 1.0072433, z: -0.008999259}
+      rotation: {x: -0.031345323, y: 0.046534512, z: 0.028415242, w: 0.99802035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:Spine
+      parentName: Wat:Hips
+      position: {x: -0, y: 0.11114999, z: -0.0011749999}
+      rotation: {x: 0.023897566, y: -0.012649364, z: -0.021433616, w: 0.9994046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:Spine1
+      parentName: Wat:Spine
+      position: {x: -0, y: 0.1297, z: 0}
+      rotation: {x: 0.010091137, y: -0.0026834994, z: -0.013608148, w: 0.9998529}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:Spine2
+      parentName: Wat:Spine1
+      position: {x: -0, y: 0.14822498, z: 0}
+      rotation: {x: 0.009868054, y: -0.0028787048, z: -0.013638379, w: 0.9998542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:Neck
+      parentName: Wat:Spine2
+      position: {x: -0, y: 0.16674998, z: 0}
+      rotation: {x: 0.054298796, y: 0.0009035232, z: -0.0039245677, w: 0.9985166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:Head
+      parentName: Wat:Neck
+      position: {x: -0, y: 0.09877499, z: 0.006025}
+      rotation: {x: 0.049033605, y: 0.0010815546, z: -0.004245158, w: 0.9987875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:HeadTop_End
+      parentName: Wat:Head
+      position: {x: -0, y: 0.232925, z: 0.014174999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftShoulder
+      parentName: Wat:Spine2
+      position: {x: -0.058099993, y: 0.14369999, z: 0.00009999999}
+      rotation: {x: 0.6440769, y: -0.3786911, z: 0.49450848, w: 0.44409388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftArm
+      parentName: Wat:LeftShoulder
+      position: {x: -0, y: 0.126275, z: 0}
+      rotation: {x: -0.08952227, y: -0.23928362, z: 0.12414883, w: 0.95880973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftForeArm
+      parentName: Wat:LeftArm
+      position: {x: -0, y: 0.242925, z: 0}
+      rotation: {x: -0.00022285711, y: 0.030930288, z: -0.012733014, w: 0.99944043}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHand
+      parentName: Wat:LeftForeArm
+      position: {x: -0, y: 0.25867498, z: 0}
+      rotation: {x: 0.060434874, y: 0.28879583, z: 0.01030136, w: 0.9554258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandThumb1
+      parentName: Wat:LeftHand
+      position: {x: 0.027174998, y: 0.040925, z: 0.0105}
+      rotation: {x: 0.07992509, y: -0.019289147, z: -0.3871285, w: 0.91835254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandThumb2
+      parentName: Wat:LeftHandThumb1
+      position: {x: -0.0015499999, y: 0.040149998, z: 0}
+      rotation: {x: -0.00974427, y: -0.088460885, z: 0.077987745, w: 0.9929742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandThumb3
+      parentName: Wat:LeftHandThumb2
+      position: {x: 0.0022, y: 0.035299998, z: 0}
+      rotation: {x: -0.035881747, y: 0.075364426, z: -0.04061696, w: 0.9956822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandThumb4
+      parentName: Wat:LeftHandThumb3
+      position: {x: -0.00064999994, y: 0.029499996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandIndex1
+      parentName: Wat:LeftHand
+      position: {x: 0.032799996, y: 0.116475, z: -0.00057499995}
+      rotation: {x: 0.06558188, y: -0.0069382475, z: -0.04938152, w: 0.9966004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandIndex2
+      parentName: Wat:LeftHandIndex1
+      position: {x: -0.000275, y: 0.030674998, z: 0}
+      rotation: {x: 0.03568951, y: 0.000119287986, z: 0.01458935, w: 0.99925643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandIndex3
+      parentName: Wat:LeftHandIndex2
+      position: {x: 0.00034999996, y: 0.030174999, z: 0}
+      rotation: {x: 0.039806772, y: -0.0005928987, z: -0.0019633775, w: 0.99920535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandIndex4
+      parentName: Wat:LeftHandIndex3
+      position: {x: -0.000049999995, y: 0.025724998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandMiddle1
+      parentName: Wat:LeftHand
+      position: {x: 0.009349999, y: 0.12264999, z: -0.00014999999}
+      rotation: {x: 0.07826125, y: 0.0015833674, z: -0.024011344, w: 0.9966425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandMiddle2
+      parentName: Wat:LeftHandMiddle1
+      position: {x: -0.00009999999, y: 0.033475, z: 0}
+      rotation: {x: 0.035637476, y: 0.000048325735, z: 0.008105426, w: 0.99933195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandMiddle3
+      parentName: Wat:LeftHandMiddle2
+      position: {x: 0.00012499999, y: 0.0316, z: 0}
+      rotation: {x: 0.035191115, y: -0.00023198595, z: 0.0025966356, w: 0.99937725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandMiddle4
+      parentName: Wat:LeftHandMiddle3
+      position: {x: -0, y: 0.027274998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandRing1
+      parentName: Wat:LeftHand
+      position: {x: -0.011049999, y: 0.124025, z: -0.0029999998}
+      rotation: {x: 0.075967796, y: 0.008017809, z: -0.021446256, w: 0.9968474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandRing2
+      parentName: Wat:LeftHandRing1
+      position: {x: 0.000049999995, y: 0.0289, z: 0}
+      rotation: {x: 0.034019697, y: -0.000033382323, z: 0.0026298512, w: 0.9994177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandRing3
+      parentName: Wat:LeftHandRing2
+      position: {x: -0.000074999996, y: 0.028399998, z: 0}
+      rotation: {x: 0.03538349, y: 0.000106803935, z: 0.006855236, w: 0.9993503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandRing4
+      parentName: Wat:LeftHandRing3
+      position: {x: 0.000024999998, y: 0.023674998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandPinky1
+      parentName: Wat:LeftHand
+      position: {x: -0.031099996, y: 0.11422499, z: -0.0014499999}
+      rotation: {x: 0.07285668, y: 0.023081744, z: -0.018510986, w: 0.9969034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandPinky2
+      parentName: Wat:LeftHandPinky1
+      position: {x: 0.000024999998, y: 0.023199998, z: 0}
+      rotation: {x: 0.035402436, y: -0.00005614569, z: 0.0037112643, w: 0.9993663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandPinky3
+      parentName: Wat:LeftHandPinky2
+      position: {x: -0.000074999996, y: 0.019474998, z: 0}
+      rotation: {x: 0.03579192, y: 0.000015732867, z: 0.009845677, w: 0.99931073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftHandPinky4
+      parentName: Wat:LeftHandPinky3
+      position: {x: 0.000049999995, y: 0.014875, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightShoulder
+      parentName: Wat:Spine2
+      position: {x: 0.058099993, y: 0.14369999, z: -0.00057499995}
+      rotation: {x: 0.603874, y: 0.428205, z: -0.5019173, w: 0.44727597}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightArm
+      parentName: Wat:RightShoulder
+      position: {x: -0, y: 0.126275, z: 0}
+      rotation: {x: -0.094892606, y: 0.29527053, z: -0.11119289, w: 0.94416463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightForeArm
+      parentName: Wat:RightArm
+      position: {x: -0, y: 0.2429, z: 0}
+      rotation: {x: -0.0043717166, y: -0.010639665, z: 0.0301963, w: 0.99947786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHand
+      parentName: Wat:RightForeArm
+      position: {x: -0, y: 0.25867498, z: 0}
+      rotation: {x: 0.062829636, y: -0.17304128, z: -0.03196057, w: 0.98238873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandThumb1
+      parentName: Wat:RightHand
+      position: {x: -0.027949998, y: 0.041375, z: 0.0115749985}
+      rotation: {x: -0.039564185, y: -0.02431259, z: 0.38599718, w: 0.92133045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandThumb2
+      parentName: Wat:RightHandThumb1
+      position: {x: 0.00049999997, y: 0.041024998, z: 0}
+      rotation: {x: -0.00722216, y: 0.0790132, z: -0.048699304, w: 0.99565715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandThumb3
+      parentName: Wat:RightHandThumb2
+      position: {x: -0.0011, y: 0.035, z: 0}
+      rotation: {x: -0.035171553, y: -0.07539292, z: 0.023485424, w: 0.9962567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandThumb4
+      parentName: Wat:RightHandThumb3
+      position: {x: 0.00059999997, y: 0.028224995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandIndex1
+      parentName: Wat:RightHand
+      position: {x: -0.031949997, y: 0.117025, z: -0.0014999999}
+      rotation: {x: 0.062144868, y: 0.008709485, z: 0.051004704, w: 0.996725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandIndex2
+      parentName: Wat:RightHandIndex1
+      position: {x: 0.00019999998, y: 0.029899998, z: 0}
+      rotation: {x: 0.035823133, y: -0.00003003421, z: -0.010132769, w: 0.9993068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandIndex3
+      parentName: Wat:RightHandIndex2
+      position: {x: -0.00022499998, y: 0.02975, z: 0}
+      rotation: {x: 0.039960366, y: 0.00032386836, z: 0.0009205749, w: 0.99920076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandIndex4
+      parentName: Wat:RightHandIndex3
+      position: {x: 0.000024999998, y: 0.025224999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandMiddle1
+      parentName: Wat:RightHand
+      position: {x: -0.009274999, y: 0.124249995, z: 0.0006999999}
+      rotation: {x: 0.08247889, y: -0.001275971, z: 0.02515332, w: 0.99627453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandMiddle2
+      parentName: Wat:RightHandMiddle1
+      position: {x: 0.000049999995, y: 0.0331, z: 0}
+      rotation: {x: 0.03576574, y: 0.000036576857, z: -0.004610213, w: 0.99934965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandMiddle3
+      parentName: Wat:RightHandMiddle2
+      position: {x: -0.000024999998, y: 0.031275, z: 0}
+      rotation: {x: 0.035325915, y: 0.00003563693, z: -0.0034600229, w: 0.9993699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandMiddle4
+      parentName: Wat:RightHandMiddle3
+      position: {x: -0.000024999998, y: 0.027699998, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandRing1
+      parentName: Wat:RightHand
+      position: {x: 0.011299999, y: 0.12129999, z: -0.0022499997}
+      rotation: {x: 0.08014797, y: -0.0056420695, z: 0.021713926, w: 0.99653053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandRing2
+      parentName: Wat:RightHandRing1
+      position: {x: -0.00014999999, y: 0.03025, z: 0}
+      rotation: {x: 0.03417358, y: -0.00006661096, z: 0.0006392369, w: 0.99941576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandRing3
+      parentName: Wat:RightHandRing2
+      position: {x: 0.00009999999, y: 0.029024996, z: 0}
+      rotation: {x: 0.035536293, y: -0.00014064302, z: -0.0044854525, w: 0.9993583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandRing4
+      parentName: Wat:RightHandRing3
+      position: {x: 0.000049999995, y: 0.026449999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandPinky1
+      parentName: Wat:RightHand
+      position: {x: 0.029949998, y: 0.11332499, z: -0.001525}
+      rotation: {x: 0.0771867, y: -0.02322977, z: 0.01932786, w: 0.99655867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandPinky2
+      parentName: Wat:RightHandPinky1
+      position: {x: -0.000049999995, y: 0.022425, z: 0}
+      rotation: {x: 0.03558467, y: 0.00018440546, z: 0.00035128798, w: 0.9993666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandPinky3
+      parentName: Wat:RightHandPinky2
+      position: {x: 0.00017499998, y: 0.020499999, z: 0}
+      rotation: {x: 0.035982613, y: -0.000040542607, z: -0.013338831, w: 0.9992634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightHandPinky4
+      parentName: Wat:RightHandPinky3
+      position: {x: -0.00012499999, y: 0.015625, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftUpLeg
+      parentName: Wat:Hips
+      position: {x: -0.10519999, y: -0.06174999, z: 0.0064499998}
+      rotation: {x: -0.13688573, y: 0.07937822, z: 0.984314, w: 0.078021124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftLeg
+      parentName: Wat:LeftUpLeg
+      position: {x: -0, y: 0.43717498, z: 0}
+      rotation: {x: -0.14371805, y: 0.013142952, z: -0.03551012, w: 0.98889405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftFoot
+      parentName: Wat:LeftLeg
+      position: {x: -0, y: 0.40182498, z: 0}
+      rotation: {x: 0.46511516, y: -0.012950805, z: 0.019829966, w: 0.88493335}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftToeBase
+      parentName: Wat:LeftFoot
+      position: {x: -0, y: 0.177875, z: 0}
+      rotation: {x: 0.31181642, y: -0.012735518, z: -0.0019854873, w: 0.95005494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:LeftToe_End
+      parentName: Wat:LeftToeBase
+      position: {x: -0, y: 0.065474994, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightUpLeg
+      parentName: Wat:Hips
+      position: {x: 0.10519999, y: -0.06174999, z: 0.00905}
+      rotation: {x: 0.09107338, y: -0.022064993, z: 0.99523264, w: 0.027034985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightLeg
+      parentName: Wat:RightUpLeg
+      position: {x: -0, y: 0.43717498, z: 0}
+      rotation: {x: -0.07459704, y: -0.083959594, z: 0.028059121, w: 0.99327683}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightFoot
+      parentName: Wat:RightLeg
+      position: {x: -0, y: 0.40192497, z: 0}
+      rotation: {x: 0.49624813, y: 0.028902236, z: 0.013208869, w: 0.867599}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightToeBase
+      parentName: Wat:RightFoot
+      position: {x: -0, y: 0.17972499, z: 0}
+      rotation: {x: 0.32846203, y: 0.012693075, z: 0.0046307007, w: 0.9444206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wat:RightToe_End
+      parentName: Wat:RightToeBase
+      position: {x: -0, y: 0.0669, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.25
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
